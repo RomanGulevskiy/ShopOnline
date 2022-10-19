@@ -1,0 +1,13 @@
+.header__cart-counter {
+  position: absolute;
+  left: 41px;
+  bottom: 45px;
+  width: 14px;
+  height: 18px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 130%;
+  color: #3670C7;
+  background: #FFFFFF;
+  border-radius: 50%;
+}

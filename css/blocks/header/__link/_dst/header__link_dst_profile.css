@@ -1,0 +1,7 @@
+.header__link--dst-profile:before {
+  left: 22px;
+  bottom: 31px;
+  width: 24px;
+  height: 24px;
+  background: url("../../../../../assets/img/icons/profile.svg") no-repeat center center;
+}

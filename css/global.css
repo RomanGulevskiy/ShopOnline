@@ -1,6 +1,23 @@
+@font-face {
+  font-family: Lato;
+  src: local("Lato Regular"), local("Lato-Regular"),
+  url("../assets/fonts/lato-regular.woff2"),
+  url("../assets/fonts/lato-regular.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Lato;
+  src: local("Lato Bold"), local("Lato-Bold"),
+  url("../assets/fonts/lato-bold.woff2"),
+  url("../assets/fonts/lato-bold.woff");
+  font-weight: 700;
+}
+
 html {
   position: relative;
   box-sizing: border-box;
+  font-size: calc(10 * 100vw / 1920);
 }
 
 *,
@@ -15,8 +32,8 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-style: normal;
-  background-color: #FFFFFF;
-  color: #FFFFFF;
+  background-color: var(--white);
+  color: var(--white);
 }
 
 img, svg {
@@ -52,12 +69,6 @@ fieldset {
 
 iframe {
   border: none;
-}
-
-.container {
-  max-width: 1830px;
-  padding: 0 30px;
-  margin: 0 auto;
 }
 
 fieldset {
@@ -113,4 +124,22 @@ input:focus {
   font-weight: 700;
   font-size: 56px;
   line-height: 120%;
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: calc(10 * 100vw / 1024);
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: calc(10 * 100vw / 768);
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: calc(10 * 100vw / 320);
+  }
 }

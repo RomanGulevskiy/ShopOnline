@@ -1,0 +1,27 @@
+.header__container  {
+  display: grid;
+  /*grid-template-columns: minmax(190px, max-content) minmax(151px, max-content) minmax(757px, max-content) minmax(354px, auto);*/
+  grid-template-columns: min-content min-content 1fr min-content;
+  grid-template-areas: "logo menu search links";
+  gap: 9.7rem;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .header__container {
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: 61px 54px;
+    row-gap: 34px;
+    grid-template-areas:
+      "logo links"
+      "menu search";
+  }
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 480px) {
+
+}

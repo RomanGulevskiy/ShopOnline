@@ -1,0 +1,24 @@
+.card {
+  position: relative;
+}
+
+/*.col--size-s {*/
+/*  grid-column-end: span 1;*/
+/*}*/
+
+/*.row--size-s {*/
+/*  grid-row-end: span 1;*/
+/*}*/
+
+
+/*.col--size-m {*/
+/*  grid-column-end: span 2;*/
+/*}*/
+
+/*.row--size-m {*/
+/*  grid-row-end: span 2;*/
+/*}*/
+
+/*.col--size-xl {*/
+/*  grid-column-end: span 4;*/
+/*}*/

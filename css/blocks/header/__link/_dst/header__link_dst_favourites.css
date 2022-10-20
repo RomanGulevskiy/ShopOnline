@@ -1,7 +1,7 @@
 .header__link--dst-favourites:before {
-  left: 22px;
-  bottom: 29px;
-  width: 30px;
-  height: 27.5px;
+  left: 1.6rem;
+  bottom: 2.5rem;
+  width: 3.6rem;
+  height: 3.6rem;
   background: url("../../../../../assets/img/icons/favorites.svg") no-repeat center center;
 }

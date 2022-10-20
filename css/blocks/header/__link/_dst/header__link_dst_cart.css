@@ -3,9 +3,9 @@
 }
 
 .header__link--dst-cart:before {
-  left: 18px;
-  bottom: 28px;
-  width: 30px;
-  height: 30px;
+  left: 1.6rem;
+  bottom: 2.5rem;
+  width: 3.6rem;
+  height: 3.6rem;
   background: url("../../../../../assets/img/icons/shopping-cart.svg") no-repeat center center;
 }

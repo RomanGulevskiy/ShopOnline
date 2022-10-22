@@ -7,30 +7,24 @@
   color: #2D2D2D;
 }
 
-.header__link:not(:last-child) {
-  margin-right: 7rem;
-}
-
 .header__link:before {
   position: absolute;
   display: block;
   content: "";
 }
 
-@media (max-width: 1200px) {
-  .header__link:not(:last-child) {
-    margin-right: 4rem;
-  }
-}
-
 @media (max-width: 800px) {
-  .header__link:not(:last-child) {
-    margin-right: 3rem;
+  .header__link {
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 480px) {
+  .header__link {
+    font-size: 0;
+  }
+
   .header__link:not(:last-child) {
-    margin-right: 2rem;
+    margin-right: 3rem;
   }
 }

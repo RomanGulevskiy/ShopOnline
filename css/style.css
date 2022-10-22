@@ -25,6 +25,9 @@
 
 @import "blocks/card/card.css";
 @import "blocks/card/__image/card__image.css";
+@import "blocks/card/__text/card__text.css";
+@import "blocks/card/__discount/card__discount.css";
+
 @import "blocks/card/_size/card_size_l.css";
 @import "blocks/card/_size/card_size_mh.css";
 @import "blocks/card/_size/card_size_mw.css";
@@ -42,3 +45,8 @@
 @import "blocks/card/_offer/card_offer_balls.css";
 @import "blocks/card/_offer/card_offer_chemicals.css";
 @import "blocks/card/_offer/card_offer_dress.css";
+
+@import "blocks/card/__countdown/card__countdown.css";
+@import "blocks/card/__countdown-title/card__countdown-title.css";
+@import "blocks/card/__countdown-text/card__countdown-text.css";
+@import "blocks/card/__countdown-number/card__countdown-number.css";
